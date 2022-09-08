@@ -1,0 +1,141 @@
+[Wed Sep 07 19:24:31.595188 2022] [mpm_winnt:notice] [pid 1040:tid 500] AH00455: Apache/2.4.54 (Win64) PHP/8.1.10 configured -- resuming normal operations
+[Wed Sep 07 19:24:31.595188 2022] [mpm_winnt:notice] [pid 1040:tid 500] AH00456: Apache Lounge VS16 Server built: Jun 22 2022 09:58:15
+[Wed Sep 07 19:24:31.595188 2022] [core:notice] [pid 1040:tid 500] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Sep 07 19:24:31.602195 2022] [mpm_winnt:notice] [pid 1040:tid 500] AH00418: Parent: Created child process 22368
+[Wed Sep 07 19:24:32.170218 2022] [mpm_winnt:notice] [pid 22368:tid 540] AH00354: Child: Starting 64 worker threads.
+[Wed Sep 07 19:52:27.197929 2022] [php:error] [pid 22368:tid 1172] [client ::1:62104] script 'C:/localhost/script.php' not found or unable to stat, referer: http://localhost/
+[Wed Sep 07 19:53:34.449866 2022] [php:error] [pid 22368:tid 1172] [client ::1:62118] script 'C:/localhost/script.php' not found or unable to stat, referer: http://localhost/
+[Wed Sep 07 19:55:31.716254 2022] [php:error] [pid 22368:tid 1172] [client ::1:62141] script 'C:/localhost/script.php' not found or unable to stat, referer: http://localhost/
+[Wed Sep 07 19:55:33.034454 2022] [php:error] [pid 22368:tid 1172] [client ::1:62141] script 'C:/localhost/script.php' not found or unable to stat, referer: http://localhost/
+[Wed Sep 07 19:55:36.281411 2022] [php:error] [pid 22368:tid 1172] [client ::1:62141] script 'C:/localhost/script.php' not found or unable to stat, referer: http://localhost/
+[Wed Sep 07 19:55:54.139957 2022] [php:error] [pid 22368:tid 1172] [client ::1:62142] script 'C:/localhost/script.php' not found or unable to stat, referer: http://localhost/
+[Wed Sep 07 19:55:55.958639 2022] [php:error] [pid 22368:tid 1172] [client ::1:62142] script 'C:/localhost/script.php' not found or unable to stat, referer: http://localhost/
+[Thu Sep 08 13:36:08.810343 2022] [php:error] [pid 22368:tid 1164] [client ::1:56246] PHP Fatal error:  Uncaught Error: Undefined constant "submit" in C:\\localhost\\index.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 2, referer: http://localhost/
+[Thu Sep 08 13:36:24.113276 2022] [php:error] [pid 22368:tid 1164] [client ::1:56262] PHP Fatal error:  Uncaught Error: Undefined constant "submit" in C:\\localhost\\index.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 2, referer: http://localhost/
+[Thu Sep 08 13:36:26.750678 2022] [php:error] [pid 22368:tid 1164] [client ::1:56262] PHP Fatal error:  Uncaught Error: Undefined constant "submit" in C:\\localhost\\index.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 2, referer: http://localhost/
+[Thu Sep 08 13:37:52.591344 2022] [php:error] [pid 22368:tid 1164] [client ::1:56356] PHP Fatal error:  Uncaught Error: Undefined constant "submit" in C:\\localhost\\index.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 2, referer: http://localhost/
+[Thu Sep 08 13:38:01.048045 2022] [php:error] [pid 22368:tid 1164] [client ::1:56369] PHP Fatal error:  Uncaught Error: Undefined constant "submit" in C:\\localhost\\index.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 2
+[Thu Sep 08 13:38:08.843652 2022] [php:error] [pid 22368:tid 1164] [client ::1:56376] PHP Fatal error:  Uncaught Error: Undefined constant "submit" in C:\\localhost\\index.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 2
+[Thu Sep 08 13:38:46.278778 2022] [php:error] [pid 22368:tid 1164] [client ::1:56454] PHP Fatal error:  Uncaught Error: Undefined constant "submit" in C:\\localhost\\index.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 2, referer: https://www.yandex.ru/clck/jsredir?from=yandex.ru;suggest;browser&text=
+[Thu Sep 08 13:41:29.477980 2022] [php:warn] [pid 22368:tid 1164] [client ::1:56617] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 13:41:29.477980 2022] [php:warn] [pid 22368:tid 1164] [client ::1:56617] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 13:41:29.477980 2022] [php:warn] [pid 22368:tid 1164] [client ::1:56617] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 13:41:37.718484 2022] [php:warn] [pid 22368:tid 1164] [client ::1:56630] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3
+[Thu Sep 08 13:41:37.718484 2022] [php:warn] [pid 22368:tid 1164] [client ::1:56630] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4
+[Thu Sep 08 13:41:37.718484 2022] [php:warn] [pid 22368:tid 1164] [client ::1:56630] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5
+[Thu Sep 08 13:44:10.390510 2022] [php:warn] [pid 22368:tid 1164] [client ::1:53771] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 13:44:10.390510 2022] [php:warn] [pid 22368:tid 1164] [client ::1:53771] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 13:44:10.390510 2022] [php:warn] [pid 22368:tid 1164] [client ::1:53771] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 13:55:33.412992 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54577] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 13:55:33.412992 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54577] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 13:55:33.412992 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54577] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 13:55:46.548953 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54589] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 13:55:46.548953 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54589] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 13:55:46.548953 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54589] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 13:55:58.305658 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54604] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 13:55:58.305658 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54604] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 13:55:58.305658 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54604] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 13:56:16.797497 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54620] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 13:56:16.797497 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54620] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 13:56:16.797497 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54620] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 13:58:48.572297 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54786] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 13:58:48.572297 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54786] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 13:58:48.572297 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54786] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 14:00:48.980439 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54919] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3
+[Thu Sep 08 14:00:48.980439 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54919] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4
+[Thu Sep 08 14:00:48.980439 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54919] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5
+[Thu Sep 08 14:00:50.951232 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54919] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3
+[Thu Sep 08 14:00:50.951232 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54919] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4
+[Thu Sep 08 14:00:50.951232 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54919] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5
+[Thu Sep 08 14:00:56.995736 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54927] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 14:00:56.995736 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54927] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 14:00:56.995736 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54927] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 14:01:32.070672 2022] [php:error] [pid 22368:tid 1156] [client ::1:54963] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\\localhost\\index.php on line 7, referer: http://localhost/
+[Thu Sep 08 14:01:36.814994 2022] [php:error] [pid 22368:tid 1156] [client ::1:54963] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\\localhost\\index.php on line 7, referer: http://localhost/
+[Thu Sep 08 14:01:46.911186 2022] [php:error] [pid 22368:tid 1156] [client ::1:55721] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\\localhost\\index.php on line 7, referer: http://localhost/
+[Thu Sep 08 14:01:49.873884 2022] [php:error] [pid 22368:tid 1156] [client ::1:55721] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\\localhost\\index.php on line 7
+[Thu Sep 08 14:02:11.782833 2022] [php:error] [pid 22368:tid 1156] [client ::1:55757] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\\localhost\\index.php on line 7, referer: http://localhost/
+[Thu Sep 08 14:02:14.652446 2022] [php:error] [pid 22368:tid 1156] [client ::1:55757] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\\localhost\\index.php on line 7
+[Thu Sep 08 14:02:39.101706 2022] [php:warn] [pid 22368:tid 1156] [client ::1:55671] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 14:02:39.101706 2022] [php:warn] [pid 22368:tid 1156] [client ::1:55671] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 14:02:39.101706 2022] [php:warn] [pid 22368:tid 1156] [client ::1:55671] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 14:02:39.101706 2022] [php:warn] [pid 22368:tid 1156] [client ::1:55671] PHP Warning:  Array to string conversion in C:\\localhost\\index.php on line 7, referer: http://localhost/
+[Thu Sep 08 14:02:42.388700 2022] [php:warn] [pid 22368:tid 1156] [client ::1:55671] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3
+[Thu Sep 08 14:02:42.388700 2022] [php:warn] [pid 22368:tid 1156] [client ::1:55671] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4
+[Thu Sep 08 14:02:42.388700 2022] [php:warn] [pid 22368:tid 1156] [client ::1:55671] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5
+[Thu Sep 08 14:02:42.388700 2022] [php:warn] [pid 22368:tid 1156] [client ::1:55671] PHP Warning:  Array to string conversion in C:\\localhost\\index.php on line 7
+[Thu Sep 08 14:05:27.298928 2022] [php:warn] [pid 22368:tid 1156] [client ::1:59926] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 14:05:27.298928 2022] [php:warn] [pid 22368:tid 1156] [client ::1:59926] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 14:05:27.298928 2022] [php:warn] [pid 22368:tid 1156] [client ::1:59926] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 14:05:27.298928 2022] [php:warn] [pid 22368:tid 1156] [client ::1:59926] PHP Warning:  Array to string conversion in C:\\localhost\\index.php on line 7, referer: http://localhost/
+[Thu Sep 08 14:05:38.986105 2022] [php:warn] [pid 22368:tid 1156] [client ::1:59938] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3
+[Thu Sep 08 14:05:38.986105 2022] [php:warn] [pid 22368:tid 1156] [client ::1:59938] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4
+[Thu Sep 08 14:05:38.986105 2022] [php:warn] [pid 22368:tid 1156] [client ::1:59938] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5
+[Thu Sep 08 14:05:38.986105 2022] [php:warn] [pid 22368:tid 1156] [client ::1:59938] PHP Warning:  Array to string conversion in C:\\localhost\\index.php on line 7
+[Thu Sep 08 14:07:12.387708 2022] [php:warn] [pid 22368:tid 1156] [client ::1:60036] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 14:07:12.387708 2022] [php:warn] [pid 22368:tid 1156] [client ::1:60036] PHP Warning:  Array to string conversion in C:\\localhost\\index.php on line 7, referer: http://localhost/
+[Thu Sep 08 14:07:15.248313 2022] [php:warn] [pid 22368:tid 1156] [client ::1:60036] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5
+[Thu Sep 08 14:07:15.248313 2022] [php:warn] [pid 22368:tid 1156] [client ::1:60036] PHP Warning:  Array to string conversion in C:\\localhost\\index.php on line 7
+[Thu Sep 08 14:07:43.897425 2022] [php:warn] [pid 22368:tid 1156] [client ::1:60069] PHP Warning:  Array to string conversion in C:\\localhost\\index.php on line 7, referer: http://localhost/
+[Thu Sep 08 14:11:40.711713 2022] [php:warn] [pid 22368:tid 1156] [client ::1:60217] PHP Warning:  Array to string conversion in C:\\localhost\\index.php on line 7, referer: http://localhost/
+[Thu Sep 08 14:12:16.521839 2022] [php:warn] [pid 22368:tid 1156] [client ::1:60254] PHP Warning:  Array to string conversion in C:\\localhost\\index.php on line 7
+[Thu Sep 08 14:40:23.231082 2022] [php:warn] [pid 22368:tid 1156] [client ::1:65140] PHP Warning:  Undefined array key "timezone" in C:\\localhost\\test\\lab1-25.07.19\\answer.php on line 5
+[Thu Sep 08 14:40:23.233082 2022] [php:notice] [pid 22368:tid 1156] [client ::1:65140] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\\localhost\\test\\lab1-25.07.19\\answer.php on line 5
+[Thu Sep 08 14:40:23.234083 2022] [php:notice] [pid 22368:tid 1156] [client ::1:65140] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\\localhost\\test\\lab1-25.07.19\\answer.php on line 5
+[Thu Sep 08 14:40:23.234083 2022] [php:warn] [pid 22368:tid 1156] [client ::1:65140] PHP Warning:  Undefined array key "x" in C:\\localhost\\test\\lab1-25.07.19\\answer.php on line 6
+[Thu Sep 08 14:40:23.234083 2022] [php:warn] [pid 22368:tid 1156] [client ::1:65140] PHP Warning:  Undefined array key "y" in C:\\localhost\\test\\lab1-25.07.19\\answer.php on line 7
+[Thu Sep 08 14:40:23.234083 2022] [php:warn] [pid 22368:tid 1156] [client ::1:65140] PHP Warning:  Undefined array key "r" in C:\\localhost\\test\\lab1-25.07.19\\answer.php on line 8
+[Thu Sep 08 15:06:00.080867 2022] [php:error] [pid 22368:tid 1156] [client ::1:50509] PHP Parse error:  syntax error, unexpected token ",", expecting variable in C:\\localhost\\index.php on line 11, referer: http://localhost/
+[Thu Sep 08 15:06:04.745115 2022] [php:error] [pid 22368:tid 1156] [client ::1:50509] PHP Parse error:  syntax error, unexpected token ",", expecting variable in C:\\localhost\\index.php on line 11
+[Thu Sep 08 15:06:55.410272 2022] [php:error] [pid 22368:tid 1156] [client ::1:50578] PHP Parse error:  syntax error, unexpected identifier "y", expecting variable in C:\\localhost\\index.php on line 11, referer: http://localhost/
+[Thu Sep 08 15:06:58.895954 2022] [php:error] [pid 22368:tid 1156] [client ::1:50578] PHP Parse error:  syntax error, unexpected identifier "y", expecting variable in C:\\localhost\\index.php on line 11
+[Thu Sep 08 15:08:24.998406 2022] [php:warn] [pid 22368:tid 1156] [client ::1:50691] PHP Warning:  Array to string conversion in C:\\localhost\\index.php on line 7, referer: http://localhost/
+[Thu Sep 08 15:08:25.000407 2022] [php:error] [pid 22368:tid 1156] [client ::1:50691] PHP Fatal error:  Uncaught Error: Undefined constant "x" in C:\\localhost\\index.php:12\nStack trace:\n#0 C:\\localhost\\index.php(18): checkAnswer('0', '0', '1')\n#1 {main}\n  thrown in C:\\localhost\\index.php on line 12, referer: http://localhost/
+[Thu Sep 08 15:08:28.519612 2022] [php:warn] [pid 22368:tid 1156] [client ::1:50691] PHP Warning:  Array to string conversion in C:\\localhost\\index.php on line 7
+[Thu Sep 08 15:08:28.519612 2022] [php:error] [pid 22368:tid 1156] [client ::1:50691] PHP Fatal error:  Uncaught Error: Undefined constant "x" in C:\\localhost\\index.php:12\nStack trace:\n#0 C:\\localhost\\index.php(18): checkAnswer('0', '0', '1')\n#1 {main}\n  thrown in C:\\localhost\\index.php on line 12
+[Thu Sep 08 15:09:06.562770 2022] [php:error] [pid 22368:tid 1156] [client ::1:50739] PHP Fatal error:  Uncaught Error: Undefined constant "y" in C:\\localhost\\index.php:11\nStack trace:\n#0 C:\\localhost\\index.php(16): checkAnswer('0', '0', '1')\n#1 {main}\n  thrown in C:\\localhost\\index.php on line 11, referer: http://localhost/
+[Thu Sep 08 15:09:09.990892 2022] [php:error] [pid 22368:tid 1156] [client ::1:50739] PHP Fatal error:  Uncaught Error: Undefined constant "y" in C:\\localhost\\index.php:11\nStack trace:\n#0 C:\\localhost\\index.php(16): checkAnswer('0', '0', '1')\n#1 {main}\n  thrown in C:\\localhost\\index.php on line 11
+[Thu Sep 08 15:17:36.953635 2022] [php:error] [pid 22368:tid 1156] [client ::1:51320] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string ** int in C:\\localhost\\index.php:11\nStack trace:\n#0 C:\\localhost\\index.php(16): checkAnswer('0', 'undefined', '4')\n#1 {main}\n  thrown in C:\\localhost\\index.php on line 11, referer: http://localhost/
+[Thu Sep 08 16:28:47.644094 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 16:28:47.644094 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 16:28:47.644094 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 16:28:49.249064 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 16:28:49.249064 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 16:28:49.249064 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 16:28:49.387189 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 16:28:49.387189 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 16:28:49.387189 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 16:28:49.543331 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 16:28:49.543331 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 16:28:49.543331 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 16:28:49.740510 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 16:28:49.740510 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 16:28:49.740510 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 16:28:49.866626 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 16:28:49.866626 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 16:28:49.866626 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 16:28:49.999747 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 16:28:49.999747 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 16:28:49.999747 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 16:28:50.108846 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 16:28:50.108846 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 16:28:50.108846 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 16:28:52.467994 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3
+[Thu Sep 08 16:28:52.467994 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4
+[Thu Sep 08 16:28:52.468995 2022] [php:warn] [pid 22368:tid 1156] [client ::1:53909] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5
+[Thu Sep 08 16:32:18.715661 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54304] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 16:32:18.715661 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54304] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 16:32:18.715661 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54304] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 16:32:25.915230 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54316] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 16:32:25.915230 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54316] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 16:32:25.915230 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54316] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 16:32:59.696014 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54346] PHP Warning:  Undefined array key "x" in C:\\localhost\\index.php on line 3, referer: http://localhost/
+[Thu Sep 08 16:32:59.696014 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54346] PHP Warning:  Undefined array key "y" in C:\\localhost\\index.php on line 4, referer: http://localhost/
+[Thu Sep 08 16:32:59.696014 2022] [php:warn] [pid 22368:tid 1156] [client ::1:54346] PHP Warning:  Undefined array key "r" in C:\\localhost\\index.php on line 5, referer: http://localhost/
+[Thu Sep 08 16:40:57.095168 2022] [php:error] [pid 22368:tid 1156] [client ::1:54866] PHP Fatal error:  Uncaught Error: Call to undefined function checkCoordinates() in C:\\localhost\\index.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 10, referer: http://localhost/
+[Thu Sep 08 16:41:54.798242 2022] [php:error] [pid 22368:tid 1156] [client ::1:54924] PHP Fatal error:  Uncaught Error: Call to undefined function checkCoordinates() in C:\\localhost\\index.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\index.php on line 10, referer: http://localhost/
+[Thu Sep 08 17:24:05.479289 2022] [php:warn] [pid 22368:tid 1156] [client ::1:56878] PHP Warning:  Array to string conversion in C:\\localhost\\index.php on line 14, referer: http://localhost/
+[Thu Sep 08 17:24:35.275447 2022] [php:warn] [pid 22368:tid 1156] [client ::1:56926] PHP Warning:  Array to string conversion in C:\\localhost\\index.php on line 14
+[Thu Sep 08 17:25:00.637603 2022] [php:error] [pid 22368:tid 1156] [client ::1:56958] PHP Parse error:  syntax error, unexpected token "]", expecting "-" or identifier or variable or number in C:\\localhost\\index.php on line 14, referer: http://localhost/
+[Thu Sep 08 17:26:42.756118 2022] [php:warn] [pid 22368:tid 1156] [client ::1:57086] PHP Warning:  Array to string conversion in C:\\localhost\\index.php on line 14, referer: http://localhost/
+[Thu Sep 08 17:26:53.318798 2022] [php:warn] [pid 22368:tid 1156] [client ::1:57101] PHP Warning:  Array to string conversion in C:\\localhost\\index.php on line 14

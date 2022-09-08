@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>PAPICH</title>
+		<meta charset="UTF-8">
+		<meta name="author" contnent="Maxim Kalabukhov">
+		<meta name="description" content="Web-Programming The First Lab">
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="https://www.pngitem.com/pimgs/m/262-2624497_transparent-soviet-union-symbol-png-soviet-union-flag.png" size="72x72">
+		<style>
+			#maket TD{
+				padding-left: 15px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<table width="100%" cellspacing="25" cellpadding="4" id="maket" border="2">
+			<tr>
+				<td align="center" colspan="3">
+					<h3>Калабухов Максим Александрович P32131.</h3>
+					<p><h3>Вариант 1212</h3></p>
+				</td>
+			</tr>
+			<tr>
+				<td valign="middle" height="500px" width="200px"><img src="pic.png"></td>
+				<td>
+					<table>
+						<tr>
+							<td width="500">
+									<h2>Choose X coordinate:</h2>
+									<p>
+										<input type="button" value="-3" name="xnumber">
+										<input type="button" value="-2" name="xnumber">
+										<input type="button" value="-1" name="xnumber">
+										<input type="button" value="0" name="xnumber">
+										<input type="button" value="1" name="xnumber">
+										<input type="button" value="2" name="xnumber">
+										<input type="button" value="3" name="xnumber">
+										<input type="button" value="4" name="xnumber">
+										<input type="button" value="5" name="xnumber">
+									</p>
+									<h2>Choose Y coordinate:</h2>
+									<input type="text" name="ynumber" id="y">
+									<div id="status"></div>
+							</td>
+							<td>
+									<aside><input type="button" id="submit" value="Submit"></aside>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td>
+					<p>
+						<h2><label for="rnumber">Choose your R parametr:</label></h2>
+						<select name="rnumber" id="select">
+							<option value="1" selected="selected">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td height="100px" colspan="3" id="outputTable"><h2>output</h2></td>
+			</tr>
+
+		</table>
+		<script src="main.js"></script>
+	</body>
+	
+</html>
